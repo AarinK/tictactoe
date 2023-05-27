@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgttt"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="369dp"
+        android:layout_marginTop="250dp"
+        android:layout_weight="-7"
+        android:columnCount="3"
+        android:rowCount="3">
+
+
+        <Button
+            android:id="@+id/button_00"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_02"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_10"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_11"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_12"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_20"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_21"
+            android:onClick="onClick"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/button_22"
+            android:onClick="onClick"
+            tools:text="" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/text_player1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player 1: 0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_player2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player 2: 0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:onClick="onClick"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/button_play_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="Play Again"
+        android:visibility="gone" />
+
+</LinearLayout>
